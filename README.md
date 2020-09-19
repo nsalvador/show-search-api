@@ -6,15 +6,27 @@ It is built using [Typescript](https://www.typescriptlang.org/) and uses [The Mo
 
 [Try it out here](https://reqbin.com/).
 
-- **URL:**
+- **URL**
 
-  /search
+  https://show-search-api.herokuapp.com/search
 
-- **Method:**
+- **Method**
 
   `POST`
+  
+- **Data Params**
 
-- **Success Response:**
+  ```json
+  {
+    "show": "blue bloods"
+  }
+  ```
+  
+- **URL Params**
+
+  None
+  
+- **Success Response**
 
   - **Code:** 200 - Success
 
@@ -44,7 +56,7 @@ It is built using [Typescript](https://www.typescriptlang.org/) and uses [The Mo
     }
     ```
 
-* **Error Response:**
+* **Error Response**
 
   - **Code:** 404 - Not Found
 
@@ -70,7 +82,7 @@ It is built using [Typescript](https://www.typescriptlang.org/) and uses [The Mo
     }
     ```
 
-* **Sample Call:**
+* **Sample Call**
 
   ```javascript
   const headers = new Headers();
