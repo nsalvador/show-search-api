@@ -98,7 +98,7 @@ It is built using [Typescript](https://www.typescriptlang.org/) and uses [The Mo
   	redirect: "follow",
   };
 
-  fetch("localhost:3000/search", requestOptions)
+  fetch("https://show-search-api.herokuapp.com/search", requestOptions)
   	.then((response) => response.text())
   	.then((result) => console.log(result))
   	.catch((error) => console.log("error", error));
